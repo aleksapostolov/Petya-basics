@@ -1,6 +1,4 @@
-
-.................
-
+...............
 
 
 
@@ -8,7 +6,18 @@
 
 
 
-f/* unction invalidNumber(input){
+
+
+
+
+
+
+
+
+
+
+
+/* unction invalidNumber(input){
     const number = Number(input[0]);
 
     let isValid = ((number >= 100 && number <= 200) || number === 0);
