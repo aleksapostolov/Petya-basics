@@ -29,7 +29,7 @@ if (havingDiscount === "Yes") {
         price -= 0.18;
 }
 break;
-        
+     
 case "Diesel":
 if (havingDiscount === "Yes") {
         price -= 0.12;
