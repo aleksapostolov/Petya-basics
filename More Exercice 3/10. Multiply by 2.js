@@ -1,3 +1,8 @@
+............ да опитам с while
+
+
+
+
 function multiplyByTwo(input) {
   let n = input.length;
   let negative = Number.NEGATIVE_INFINITY;
