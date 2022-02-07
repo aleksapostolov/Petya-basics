@@ -5,8 +5,10 @@ function examPreparation(input){
     let numberOfProblems = 0;
     let sumOfGrades = 0;
     let currentNumberOfBadGrades = 0;
+    let lastProblemName = "";
 
     while(command !== "Enough"){
+        lastProblemName = command = input[index];
         numberOfProblems++;
         index++;
         let currentGrades = Number(input[index])
@@ -26,9 +28,8 @@ function examPreparation(input){
         let avgGrade = (sumOfGrades / numberOfProblems).toFixed(2);
         console.log(`Average score: ${avgGrade}`);
         console.log(`Number of problems: ${numberOfProblems}`);
-        index -= 2;
-        let command = input[index];
-        console.log(`Last problem: ${command}`)
+       
+        console.log(`Last problem: ${lastProblemName}`)
     }
 }
 examPreparation(["3","Money","6","Story","4","Spring Time","5","Bus","6","Enough"]);
