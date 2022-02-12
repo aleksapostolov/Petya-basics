@@ -1,0 +1,6 @@
+function multiplicationTable() {
+
+
+
+}
+multiplicationTable()
