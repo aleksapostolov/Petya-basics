@@ -25,3 +25,4 @@ if (budget >= totalPriceForAll){
 }
 
 shoping (["900","2","1","3"]);
+
